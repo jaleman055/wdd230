@@ -1,83 +1,92 @@
 /* Set the font family and size for the entire page */
 body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-  }
-  
-  /* Style the header */
-  header {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
-  }
-  
-  /* Style the profile image in the header */
-  header img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-right: 20px;
-  }
-  
-  /* Style the main content */
-  main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  /* Style the h2 heading in the main content */
-  main h2 {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  /* Style the horizontal lines in the main content */
-  .header-line,
-  hr {
-    border: none;
-    border-top: 1px solid #ccc;
-    margin: 20px 0;
-  }
-  
-  /* Style the unordered list in the main content */
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Style the list items in the unordered list */
-  li {
-    margin-bottom: 10px;
-  }
-  
-  /* Style the links in the unordered list */
-  li a {
-    color: #333;
-    text-decoration: none;
-  }
-  
-  /* Style the quote in the main content */
-  .quote {
-    font-style: italic;
-    color: #666;
-    margin-top: 20px;
-  }
-  
-  /* Style the footer */
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  /* Style the copyright span in the footer */
-  footer span {
-    font-weight: bold;
-  }
-  
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  /* Center all the content on the page */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style the header */
+header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  /* Limit the width of the header */
+  width: 100%;
+  max-width: 800px;
+}
+
+/* Style the profile image in the header */
+header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+/* Style the main content */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the h2 heading in the main content */
+main h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Style the horizontal lines in the main content */
+.header-line,
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+/* Style the unordered list in the main content */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the list items in the unordered list */
+li {
+  margin-bottom: 10px;
+}
+
+/* Style the links in the unordered list */
+li a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Style the quote in the main content */
+.quote {
+    font-style: italic;  
+    color: #666;  
+    margin-top:20px;  
+}
+
+/* Style the footer */
+footer {
+    background-color:#333;  
+    color:#fff;  
+    padding:20px;  
+    text-align:center;  
+    /* Limit the width of the footer to match the header */
+    width:100%;  
+    max-width:800px;  
+}
+
+/* Style the footer span in the footer */
+footer span {
+    font-weight:bold;  
+}
