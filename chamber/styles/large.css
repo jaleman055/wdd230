@@ -1,0 +1,25 @@
+@media (min-width: 900px) {
+    header {
+      justify-content: space-evenly;
+    }
+  
+    #menu {
+      width: 40%;
+    }
+  
+    main {
+      justify-content: space-between;
+    }
+  
+    div, section {
+      width: 30%;
+    }
+  
+    .spotlight1, .spotlight2 {
+      width: 65%;
+    }
+  }
+
+ 
+  
+  
