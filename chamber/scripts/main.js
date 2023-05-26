@@ -13,3 +13,13 @@ document.getElementById('menuBtn').addEventListener('click', function() {
         menu.style.display = 'none';
     }
 });
+
+// Display banner on Mondays and Tuesdays
+let currentDate = new Date();
+let currentDay = currentDate.getDay(); // getDay() returns a number between 0 (Sunday) and 6 (Saturday)
+
+if (currentDay === 1 || currentDay === 2) { // 1 is Monday, 2 is Tuesday
+    document.getElementById('banner').style.display = "block"; // display banner
+} else {
+    document.getElementById('banner').style.display = "none"; // hide banner
+}
