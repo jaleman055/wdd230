@@ -1,0 +1,9 @@
+.lazy-load {
+    width: 300px;
+    height: 400px;
+    transition: filter 1s;
+}
+
+.lazy-load.is-loading {
+    filter: blur(20px);
+}
