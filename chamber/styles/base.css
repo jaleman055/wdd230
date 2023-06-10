@@ -1,10 +1,10 @@
-/* Arial and Georgia fonts from Google Fonts API */
-@import url("https://fonts.googleapis.com/css?family=Arial|Georgia");
+/* updated fonts from Google Fonts API */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
   background-color: #38424d;
   color: white;
-  font-family: Arial, Georgia;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 #banner {
@@ -41,7 +41,7 @@ header {
 }
 
 #menu li {
-  border-bottom: 2px solid yellow;
+  
   padding: 10px;
   margin: 0;
 
