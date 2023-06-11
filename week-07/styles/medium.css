@@ -19,9 +19,7 @@
 
 #menu li a:hover {
   color: black;
-  font-size: 1.5em;
   text-shadow: 0 0 4px yellow;
-  transform: translateY(-2px);
 }
 
 /* Hamburger Menu Styles */
@@ -38,7 +36,6 @@ main {
   padding: 5px;
   background-color: #43505d;
   overflow: auto;
-
 }
 
 /* Discover page styles start */
@@ -57,7 +54,6 @@ main {
 }
 
 .gallery {
-
   grid-column: 2;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -86,16 +82,14 @@ main {
   justify-content: center;
   align-items: center;
   margin-top: -50px;
-  
 }
-
 
 .gallery-item {
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: right;
+  align-items: center;
   justify-content: right;
   color: antiquewhite;
   position: relative;
@@ -108,7 +102,7 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(245, 233, 71, 0.284); 
+  background-color: rgba(245, 233, 71, 0.284);
 }
 
 .gallery-item img {
@@ -118,7 +112,6 @@ main {
 }
 
 /* Discover page styles ends */
-
 
 .hero img {
   width: 100%;
@@ -171,6 +164,15 @@ main {
   grid-row: 6;
 }
 
+.weather p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  color: antiquewhite;
+}
+
 /* Section Styles */
 main {
   display: grid;
@@ -194,6 +196,14 @@ main {
   background-color: #43505d;
   margin: 2vw;
   box-shadow: 0 0 5px rgb(244, 248, 3);
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  background-color: #43505d;
+  margin: 2vw;
+  box-shadow: 0 0 5px rgb(244, 248, 3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 div p {
