@@ -1,4 +1,6 @@
-const url = 'https://raw.githubusercontent.com/jaleman055/wdd230/main/chamber-week-09/data.json'; // Path for data.json file
+const url = 'https://raw.githubusercontent.com/jaleman055/wdd230/main/chamber-week-09/data.json'; // Path for online data.json file
+
+// LOCAL JSON FOR TESTING: const url = 'data.json';
 
 async function getCompanyData() {
     const response = await fetch(url);
@@ -22,7 +24,8 @@ const displayCompanies = (companies) => {
         phone.textContent = `Phone: ${company.phone}`;
         website.href = company.website;
         website.textContent = 'Visit Website';
-        icon.setAttribute('src', `/path/to/icons/${company.icon}`); // path to the icons
+        icon.setAttribute('src', company.icon);
+
 
         card.appendChild(h2);
         card.appendChild(address);
