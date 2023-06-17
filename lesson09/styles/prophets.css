@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ccc;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .cards section {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .cards img {
+    width: 100%;
+    height: auto;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ccc;
+  }
