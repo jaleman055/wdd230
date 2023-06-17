@@ -284,7 +284,6 @@ input, textarea, select {
   gap: 20px;
   padding: 20px;
   color: black;
-  
 }
 
 .directory section {
@@ -294,15 +293,17 @@ input, textarea, select {
     padding: 20px;
     border-radius: 10px;
     width: auto;
-    height: 400px;
+    height: 90%;
+    align-items: center;
 
 }
 
 .directory img {
-  margin-top: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   align-items: center;
-  width: auto;
-  height: 150px;
+  width: 75px;
+  height: auto;
 }
 
 #directory-title {
