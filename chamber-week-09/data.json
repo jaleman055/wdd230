@@ -1,0 +1,12 @@
+{
+    "companies": [
+        {
+            "name": "GooGle",
+            "address": "123 Main St",
+            "phone": "(123) 456-7890",
+            "website": "https://www.google.com/",
+            "icon": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+            "membership": "gold"
+        }
+    ]
+}
