@@ -1,4 +1,4 @@
-const url = 'https://github.com/jaleman055/wdd230/blob/main/chamber-week-09/data.json'; // Path for data.json file
+const url = 'https://raw.githubusercontent.com/jaleman055/wdd230/main/chamber-week-09/data.json'; // Path for data.json file
 
 async function getCompanyData() {
     const response = await fetch(url);
