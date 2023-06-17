@@ -289,7 +289,8 @@ input, textarea, select {
 
 .directory section {
 
-    border: 1px solid #d42222;
+    border: 2px solid black;
+    box-shadow: 0 0 5px rgba(244, 248, 3, 0.527);
     padding: 20px;
     border-radius: 10px;
     width: auto;
@@ -298,6 +299,8 @@ input, textarea, select {
 }
 
 .directory img {
+  margin-top: 30px;
+  align-items: center;
   width: 100%;
   height: fit-content;
 }
