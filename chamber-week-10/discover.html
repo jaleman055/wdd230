@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover - Point of the Mountain Chamber</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link
+      rel="stylesheet"
+      href="styles/medium.css"
+      media="(min-width: 600px)"
+    >
+    <link rel="stylesheet" href="styles/large.css" media="(min-width: 900px)" >
+  </head>
+
+  <body>
+    <header>
+      <div id="banner" style="display: none">
+        🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+      </div>
+
+      <img src="images/logo.webp" alt="Logo" id="logo" >
+      <!-- Converted logo to WebP format -->
+      <h1 id="siteName">Point of the Mountain Chamber</h1>
+      <nav id="nav">
+        <button id="menuBtn">&#9776;</button>
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Contact</a></li>
+          <li>
+            <a href="#"><img src="images/facebook.webp" alt="Facebook" ></a>
+            <!-- Converted Facebook icon to WebP format -->
+          </li>
+          <li>
+            <a href="#"><img src="images/LI-In-Bug.webp" alt="Linkedin" ></a>
+            <!-- Converted LinkedIn icon to WebP format -->
+          </li>
+        </ul>
+      </nav>
+      <p id="date"></p>
+    </header>
+    <main>
+      <div class="city-visit-info">
+        <h2>Discover Point of the Mountain</h2>
+        <p>Founded: 1885</p>
+        <p>Population: just 1 person</p>
+        <p>Area: 45.3 sq miles</p>
+        <p>Elevation: 29,031.69 ft. Yes, it’s very high!</p>
+      </div>
+      <div class="visit">
+        <h2>Your visits</h2>
+        <div id="visitTime"></div>
+      </div>
+
+      <div class="gallery">
+        <div class="gallery-item">
+          <img
+            class="lazy-load"
+            src="images/placeholder.jpg"
+            data-src="images/image01.jpg"
+            alt="Image 1"
+          >
+          <p>Point of the Mountain Chamber Art</p>
+        </div>
+        <div class="gallery-item">
+          <img
+            class="lazy-load"
+            src="images/placeholder.jpg"
+            data-src="images/image02.jpg"
+            alt="Image 2"
+          >
+          <p>Point of the Mountain Chamber Art</p>
+        </div>
+        <div class="gallery-item">
+          <img
+            class="lazy-load"
+            src="images/placeholder.jpg"
+            data-src="images/image03.jpg"
+            alt="Image 3"
+          >
+          <p>Point of the Mountain Chamber Art</p>
+        </div>
+        <div class="gallery-item">
+          <img
+            class="lazy-load"
+            src="images/placeholder.jpg"
+            data-src="images/image04.jpg"
+            alt="Image 4"
+          >
+          <p>Point of the Mountain Chamber Art</p>
+        </div>
+        <div class="gallery-item">
+          <img
+            class="lazy-load"
+            src="images/placeholder.jpg"
+            data-src="images/image05.jpg"
+            alt="Image 5"
+          >
+          <p>Point of the Mountain Chamber Art</p>
+        </div>
+        <div class="gallery-item">
+          <img
+            class="lazy-load"
+            src="images/placeholder.jpg"
+            data-src="images/image06.jpg"
+            alt="Image 6"
+          >
+          <p>Point of the Mountain Chamber Art</p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <img src="images/small-logo.webp" alt="small-Logo" id="small-logo" >
+      <!-- Converted small logo to WebP format -->
+      <h2>Point of the Mountain Chamber</h2>
+      <p>Some place in Madrid, Spain</p>
+      <p>Madrid, Spain</p>
+      <p>info@mountainchamber.com</p>
+      <p>+34 000 000</p>
+      <p>© 2023 Julio Aleman. Toledo, Spain.</p>
+      <p id="lastModified"></p>
+      <p id="footerText"></p>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/lazyload.js"></script>
+    <script src="scripts/visitTime.js"></script>
+  </body>
+</html>
