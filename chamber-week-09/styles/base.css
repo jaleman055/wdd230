@@ -315,4 +315,31 @@ input, textarea, select {
   height: fit-content;
 }
 
-/* Directory page styles end */
+/* base.css additions for list view of directoy */
+
+/* List view */
+.directory.list {
+  grid-template-columns: 1fr;
+  row-gap: 1px;
+}
+
+.directory.list section {
+  width: 45%;
+  margin: 0%;
+  padding: 0%;
+  line-height: 0.7;
+  gap: 0px;
+  background-color: #43505d;
+  color: antiquewhite;
+  border: none;
+}
+
+#directory.list img {
+  display: none;
+}
+
+#directory.list a {
+  color:lightblue;
+}
+
+/* Grid view (original view) */

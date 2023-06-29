@@ -24,4 +24,3 @@ if (currentDay === 1 || currentDay === 2) { // 1 is Monday, 2 is Tuesday
     document.getElementById('banner').style.display = "none"; // hide banner
 }
 
-  
