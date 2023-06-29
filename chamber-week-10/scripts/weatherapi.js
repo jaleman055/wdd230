@@ -2,7 +2,7 @@ const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
-const url = `http://api.openweathermap.org/data/2.5/weather?q=Madrid&units=imperial&appid=8425eaa67c77064b04663fe8bd49542f`;
+const url = `https://api.openweathermap.org/data/2.5/weather?q=Madrid&units=imperial&appid=8425eaa67c77064b04663fe8bd49542f`;
 
 async function apiFetch() {
   try {
