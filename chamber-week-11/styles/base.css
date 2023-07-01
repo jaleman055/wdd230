@@ -96,7 +96,6 @@ main {
   width: 80%;
   height: 285px;
   display: flex;
-  justify-content: left;
   align-items: center;
   margin-top: -50px;
 }
@@ -251,6 +250,7 @@ nav {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: fit-content;
 }
 
 /* Join page styles start */
@@ -336,7 +336,7 @@ input, textarea, select {
     border: 1px solid black;
     padding: 20px;
     border-radius: 10px;
-    width: 50%;
+    width: 75%;
     height: fit-content;
 
 }
@@ -357,7 +357,7 @@ input, textarea, select {
 }
 
 .directory.list section {
-  width: 45%;
+  width: 100%;
   margin: 0%;
   padding: 0%;
   line-height: 0.7;
@@ -365,6 +365,7 @@ input, textarea, select {
   background-color: #43505d;
   color: antiquewhite;
   border: none;
+  text-align: center;
 }
 
 #directory.list img {
@@ -404,7 +405,6 @@ input, textarea, select {
   grid-row: 2;
   width: 100%;
   height: fit-content;
-  justify-content: top;
   align-items: center;
   flex-direction: column;
   text-align: center;
@@ -428,7 +428,6 @@ input, textarea, select {
 
 #contactForm {
   gap: 5px; 
-  grid-row: 5px;
   padding-top: 1px;
   padding-bottom: 10px;
   height: 100%;
