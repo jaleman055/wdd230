@@ -52,6 +52,50 @@ header {
   text-decoration: none;
 }
 
+#menu li a:hover {
+  color: black;
+  text-shadow: 0 0 4px yellow;
+}
+
+/* active page effect */
+#menu li a:active {
+  background-color: white;
+  color: black;
+}
+
+.active {
+  background-color: lightseagreen;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+#menu li a.active {
+  color: black;
+}
+
+/* spotlights images sizes */
+
+.spotlight1 img {
+  width: 35%;
+  height: 35%;
+  object-fit: fill;
+}
+
+.spotlight2 img {
+  width: 25%;
+  height: 25%;
+  object-fit: fill;
+}
+
+.spotlight3 img {
+  width: 25%;
+  height: 25%;
+  object-fit: fill;
+}
+/* spotlights images sizes end */
+
+/* active page effect end */
+
 main {
   display: flex;
   flex-direction: column;
@@ -185,7 +229,11 @@ div p {
   color: antiquewhite;
 }
 
-.spotlight1 a {
+.spotlight1, .spotlight2, .spotlight3 {
+  color: antiquewhite;
+}
+
+.spotlight1 a, .spotlight2 a, .spotlight3 a {
   color: antiquewhite;
 }
 

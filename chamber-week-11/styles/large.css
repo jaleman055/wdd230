@@ -9,6 +9,7 @@
 
 #menu li {
   margin: 0 15px;
+  
 }
 
 #menu li a {
@@ -20,6 +21,21 @@
 #menu li a:hover {
   color: black;
   text-shadow: 0 0 4px yellow;
+}
+
+#menu li a:active {
+  background-color: white;
+  color: black;
+}
+
+.active {
+  background-color: lightseagreen;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+#menu li a.active {
+  color: black;
 }
 
 /* Hamburger Menu Styles */
@@ -188,16 +204,34 @@ figure {
   color: antiquewhite;
 }
 
+.spotlight1 img {
+  width: 35%;
+  height: 35%;
+  object-fit: fill;
+}
+
 .spotlight2 {
   grid-column: 3;
   grid-row: 2;
   color: antiquewhite;
 }
 
+.spotlight2 img {
+  width: 35%;
+  height: 35%;
+  object-fit: fill;
+}
+
 .spotlight3 {
   grid-column: 3;
   grid-row: 3;
   color: antiquewhite;
+}
+
+.spotlight3 img {
+  width: 35%;
+  height: 35%;
+  object-fit: fill;
 }
 
 .spotlight3 {
